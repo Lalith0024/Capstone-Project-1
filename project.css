@@ -61,9 +61,10 @@ nav a{
  
 }
 nav a:hover{
-    transform: scale(1.2);
+    transform: scale(0.75);
+
     
-    color: #ddd;
+
 }
 
 
@@ -115,11 +116,12 @@ nav a:hover{
     
 }
 .project-item img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: #666;
     cursor: pointer;
     color: gray;
     box-shadow: 1px 1px 4px 2px 
+
 }
 
 .project-item p {
@@ -194,7 +196,14 @@ nav a:hover{
     color: white;
     border: none;
     cursor: pointer;
+    transition: all 0.2 ease-in;
 
+
+}
+.email button:hover{
+    transform: scale(1.1);
+    background-color:lightgreen;
+    color: black;
 }
 
 .logo{
@@ -229,9 +238,15 @@ nav a:hover{
 
 button{
 padding: 12px 24px 12px 24px;
-border-radius: 8px 0px 8px 0px;
+border-radius: 8px;
 background-color: white;
 cursor: pointer;
+transition: all 0.2s ease-in;
 
 }
 
+
+.last-button:hover{
+    background-color:lightgreen;
+    transform: scale(1.1);
+}
