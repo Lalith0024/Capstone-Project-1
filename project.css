@@ -54,18 +54,16 @@ nav a{
     padding-right: 0px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    transition: all 0.2s ease-in;
 
 
 
  
 }
-nav a:hover{
-    transform: scale(0.75);
+
 
     
 
-}
+
 
 
 .container-1{
@@ -124,7 +122,7 @@ nav a:hover{
 
 }
 
-.project-item p {
+.project-item p{
     margin-top: 10px; 
     
 }
@@ -188,6 +186,7 @@ nav a:hover{
     padding: 10px;
     width: 300px;
     border: 1px solid #ddd;
+    border-radius: 10px
 }
 
 .email button{
@@ -241,6 +240,7 @@ padding: 12px 24px 12px 24px;
 border-radius: 8px;
 background-color: white;
 cursor: pointer;
+font-family: "Roboto Mono", monospace;
 transition: all 0.2s ease-in;
 
 }
@@ -249,4 +249,7 @@ transition: all 0.2s ease-in;
 .last-button:hover{
     background-color:lightgreen;
     transform: scale(1.1);
+    
 }
+
+
